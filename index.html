@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>autoBio</title>
+                            <!--IMPORTAÇÃO DE CÓDIGO PARA ESTILIZAÇÃO-->
+
+    <link rel="stylesheet" href="styleFDS.css">
+
+</head>
+<body class="corpo">
+    
+                            <!--INICÍO DO SITE, CONTENDO MEU NOME E LEVE AUTOBIOGRAFIA-->
+
+   <h1 class="titulo">Rhuan Sidney Ferreira Melo</h1>
+   <br>
+
+    <h2 class="auto">Autobiografia</h2>
+    <p class="paragrafo">Me chamo Rhuan, tenho 19 anos (2005–atualmente) e moro em São Paulo, embora seja natural de Osasco.
+Desde cedo, desenvolvi um forte interesse pela música — toco piano e sou apaixonado por obras de compositores como Chopin e Rachmaninoff. Cheguei a tentar seguir a carreira de musicista, mas, infelizmente, não foi possível naquele momento.
+Nos meus momentos de lazer, gosto de jogar xadrez, videogames e outros jogos competitivos.
+Sempre tive curiosidade pela área da programação, mas por muito tempo não soube como começar. Felizmente, recentemente comecei a me envolver com esse universo e tenho me sentido bastante estimulado e motivado a seguir nessa direção.</p>
+                                       <!-- BOTÃO PARA MOSTRAR A FRASE-->
+
+       <button id="botão" onclick="mostrarFrase()" ondblclick="esconderFrase()">Clique para ver uma mensagem!</button>
+
+       <p id="frase"></p>
+
+                                  <!-- CRIAÇÃO DE LISTA PARA DEMONSTRAR OS HOBBIES-->
+    <h2 class="hobbies">Meus Hobbies:</h2>
+    <ol>
+        <ul class="lista">
+            <li>Tocar piano</li>
+            <li>Jogar videogame</li>
+            <li>Assistir filmes e séries</li>
+            <li>Fazer pão, bolos e outros</li>
+            <li>Ir ao parque ou espaço verde</li>
+        </ul>
+    </ol>   
+                                                  <!-- IMAGEM DO PIANO -->
+    <img class= "piano"> </img> 
+
+                        <!-- CRIAÇÃO DE TABELA PARA DEMONSTRAR PAÍSES QUE EU GOSTARIA DE VISITAR-->
+<h2 class="visita">Países que eu gostaria de visitar:</h2>
+
+    <table class="tabela" border="5">
+        <tr>
+            <th class="th1">Nome do país:</th1>
+            <th class="th2">Imagem do país:</th2>
+        </tr>
+        
+        <tr>
+            <td>
+                <div class="nome nome1" href="xangaiChina.html"><br>Xangai,<br> China</div>
+            </td>
+            <td>
+                <a href=xangaiChina.html>
+                    <img src="imagens/xangaiChina.jpeg" width="200" height="200">
+                </a>
+            </td>
+        </tr>
+
+                <tr>
+            <td>
+                <div class="nome nome2" href="havanaCuba.html"><br>Havana,<br> Cuba</div>
+            </td>
+            <td>
+                <a href=havanaCuba.html>
+                    <img src="imagens/havanaCuba.webp" width="200" height="200">
+                </a>
+            </td>
+        </tr>
+
+                <tr>
+            <td>
+                <div class="nome nome3" href="pocitosUruguay.html"><br>Pocitos,<br> Uruguai</div>
+            </td>
+            <td>
+                <a href=pocitosUruguay.html>
+                    <img src="imagens/pocitosUruguay.jpeg" width="200" height="200">
+                </a>
+            </td>
+        </tr>
+
+
+    </table>
+
+                <!--QUANTIDADE DE QUEBRAS DE LINHA NECESSÁRIAS PARA COLOCAR O LINK DO SITE DE INTERESSE-->
+
+    <br><br><br>
+        <a href="https:\\chess.com" class="link">Um interesse meu!</a>
+
+                                <!--IMPORTAÇÃO DE CÓDIGO PARA INCLUSÃO DE SCRIPT-->
+<script src="jsFDS.js">
+</script>
+
+</body>
+</html>
+                                                    <!--FIM DO CÓDIGO!-->

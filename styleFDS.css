@@ -1,0 +1,193 @@
+/*   estilização do título   */
+
+.titulo {
+    position:relative;
+    left: 0px;
+    top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/*   adição de cor no fundo da página   */
+
+.corpo {
+    background-color: plum;
+}
+
+/*   estilização de como o subtítulo e texto deve aparecer no site   */
+
+.auto {
+    
+    position: relative;
+    left: 50px;
+
+}
+
+
+
+.paragrafo {
+    position: relative;
+    left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+/*   estilização de como os hobbies e lista em sequência devem aparecer no texto   */
+
+.hobbies {
+
+    position: relative;
+    left: 50px;
+    top: 30px;
+
+}
+
+
+
+.lista {
+    position: relative;
+    left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: -20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    
+}
+
+/*   estilização de como a imagem do piano deve aparecer   */
+
+.piano {
+    background: url("imagens/pianoimagem.jpg") no-repeat;
+    position:relative;  
+    left: 550px;
+    bottom: 200px;
+    width: 300px;
+    height: 200px;
+    display:block;
+    background-size:cover;
+    border-radius: 10px;
+    
+    
+}
+
+/*   estilização de como o botão e frase devem parecer   */
+
+#botão {
+    position: relative;
+    left: 50px;
+}
+
+#frase {
+    position: absolute;
+    left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:oblique;
+    font-weight:300;
+    text-decoration: underline;
+    font-size: 20px;
+    color: black;
+    background-color: lightpink;
+    text-align: justify;
+    
+
+}
+
+/*   estilização de como a parte de tabela e nome de países que eu gostaria de conhecer devem parecer   */
+
+.visita {
+
+    position: relative;
+    left: 50px;
+
+}
+
+.tabela {
+    position: relative;
+    margin: 3px;
+    left: 20px;
+    border: 3px solid purple;
+    
+
+}
+
+
+.th1 {
+
+    position: relative;
+    background-color:lightsalmon
+}
+
+.th2 {
+    position: relative;
+    background-color:lightsalmon
+}
+
+
+
+.nome {
+
+ border: 2px solid black;
+ width: 200px;
+ height: 200px;
+ margin: 5px;
+ position: relative;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 45px;
+ top: 0px;
+ bottom: 0px;
+ left: 0px;
+
+
+}
+.nome1 {
+    background-color:#9370d880;
+    top: 0px;
+   
+}
+.nome2 {
+    background-color:#9370d880;
+    top: 0px;
+}
+.nome3 {
+    background-color:#9370d880;
+    top: 0px;
+}
+
+
+/*   estilização de como o link de site de interesse deve parecer   */
+
+.link {
+position: relative;
+margin: 5px;
+left: 160px;
+font-size: 20px;
+color:darkgreen;
+background-color:antiquewhite;
+
+}
+
+.link:hover {
+  color:blueviolet;
+  text-decoration: underline;
+  background-color:aliceblue;
+  bottom: 5px;
+  transition: all 0.3s ease;
+}
+
